@@ -17,7 +17,7 @@ var middleware = {
 
 
 app.get('/', middleware.logger, function (req, res) {
-	res.send('Hello Express!');
+	res.send('Hello Express!!');
 });
 app.get('/about', function (req, res) {
 	res.send('About page!');
